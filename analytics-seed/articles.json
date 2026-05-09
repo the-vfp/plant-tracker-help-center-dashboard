@@ -1,0 +1,156 @@
+[
+  {
+    "id": "setting-up-your-collection",
+    "title": "Setting up your collection",
+    "slug": "setting-up-your-collection",
+    "category": "getting-started",
+    "category_label": "Getting started",
+    "last_updated": "2026-04-15",
+    "body_word_count": 350,
+    "view_count": 1850,
+    "is_weak": false
+  },
+  {
+    "id": "installing-plant-tracker-on-your-phone",
+    "title": "Installing Plant Tracker on your phone",
+    "slug": "installing-plant-tracker-on-your-phone",
+    "category": "getting-started",
+    "category_label": "Getting started",
+    "last_updated": "2026-04-20",
+    "body_word_count": 250,
+    "view_count": 1357,
+    "is_weak": false
+  },
+  {
+    "id": "home-dashboard-overview",
+    "title": "Home dashboard overview",
+    "slug": "home-dashboard-overview",
+    "category": "getting-started",
+    "category_label": "Getting started",
+    "last_updated": "2026-04-22",
+    "body_word_count": 480,
+    "view_count": 1620,
+    "is_weak": false
+  },
+  {
+    "id": "adding-a-plant",
+    "title": "Adding a plant",
+    "slug": "adding-a-plant",
+    "category": "managing-plants",
+    "category_label": "Managing plants",
+    "last_updated": "2026-04-25",
+    "body_word_count": 230,
+    "view_count": 551,
+    "is_weak": false
+  },
+  {
+    "id": "editing-a-plant",
+    "title": "Editing a plant",
+    "slug": "editing-a-plant",
+    "category": "managing-plants",
+    "category_label": "Managing plants",
+    "last_updated": "2026-04-26",
+    "body_word_count": 200,
+    "view_count": 402,
+    "is_weak": false
+  },
+  {
+    "id": "deleting-a-plant",
+    "title": "Deleting a plant",
+    "slug": "deleting-a-plant",
+    "category": "managing-plants",
+    "category_label": "Managing plants",
+    "last_updated": "2026-04-27",
+    "body_word_count": 180,
+    "view_count": 508,
+    "is_weak": false
+  },
+  {
+    "id": "logging-a-watering",
+    "title": "Logging a watering",
+    "slug": "logging-a-watering",
+    "category": "daily-care",
+    "category_label": "Daily care",
+    "last_updated": "2026-04-28",
+    "body_word_count": 320,
+    "view_count": 1340,
+    "is_weak": false
+  },
+  {
+    "id": "adding-photos",
+    "title": "Adding photos",
+    "slug": "adding-photos",
+    "category": "daily-care",
+    "category_label": "Daily care",
+    "last_updated": "2026-04-29",
+    "body_word_count": 290,
+    "view_count": 1075,
+    "is_weak": false
+  },
+  {
+    "id": "notes-overview",
+    "title": "Notes Overview",
+    "slug": "notes-overview",
+    "category": "daily-care",
+    "category_label": "Daily care",
+    "last_updated": "2025-10-15",
+    "body_word_count": 280,
+    "view_count": 1180,
+    "is_weak": true
+  },
+  {
+    "id": "changing-a-plants-watering-schedule",
+    "title": "Changing a plant's watering schedule",
+    "slug": "changing-a-plants-watering-schedule",
+    "category": "tracking-and-insights",
+    "category_label": "Tracking & insights",
+    "last_updated": "2025-10-20",
+    "body_word_count": 240,
+    "view_count": 787,
+    "is_weak": false
+  },
+  {
+    "id": "watering-cadence-chart-overview",
+    "title": "Watering Cadence Chart Overview",
+    "slug": "watering-cadence-chart-overview",
+    "category": "tracking-and-insights",
+    "category_label": "Tracking & insights",
+    "last_updated": "2025-10-22",
+    "body_word_count": 180,
+    "view_count": 920,
+    "is_weak": true
+  },
+  {
+    "id": "exporting-and-importing-data",
+    "title": "Exporting and importing data",
+    "slug": "exporting-and-importing-data",
+    "category": "reference",
+    "category_label": "Reference",
+    "last_updated": "2026-05-01",
+    "body_word_count": 410,
+    "view_count": 860,
+    "is_weak": false
+  },
+  {
+    "id": "troubleshooting",
+    "title": "Troubleshooting",
+    "slug": "troubleshooting",
+    "category": "reference",
+    "category_label": "Reference",
+    "last_updated": "2026-05-02",
+    "body_word_count": 360,
+    "view_count": 803,
+    "is_weak": false
+  },
+  {
+    "id": "frequently-asked-questions",
+    "title": "Frequently asked questions",
+    "slug": "frequently-asked-questions",
+    "category": "reference",
+    "category_label": "Reference",
+    "last_updated": "2026-05-03",
+    "body_word_count": 380,
+    "view_count": 619,
+    "is_weak": false
+  }
+]
