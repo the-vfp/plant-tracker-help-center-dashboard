@@ -12,6 +12,14 @@
 
 ---
 
+## Metric definitions (placeholder — to be folded into section 1 or section 3)
+
+The dashboard uses three terms consistently. The methodology writeup should restate them — the reader of the writeup may not also be reading the dashboard.
+
+- **Click-through.** A search where the user clicked one of the article results. Distinct from searches that returned results and were abandoned, and from searches that returned no results at all.
+- **Deflection rate.** Of click-throughs to a given article (or across the KB), the fraction where the user did *not* file a ticket within 72 hours. Computed as `1 − (click-throughs that led to a ticket ÷ total click-throughs)`. Zero-result searches are excluded — they have nothing to deflect on.
+- **Led to ticket.** A search marked as the trigger for a follow-on ticket within 72 hours from the same session. The inverse of a deflected click-through, and the mechanism that lets the dashboard model deflection without faking it.
+
 ## What's real and what's modeled (placeholder — to be merged into section 5)
 
 | Element | Source |
