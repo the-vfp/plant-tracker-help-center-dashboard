@@ -78,20 +78,22 @@ export function Layout({ activeView, onSelect, children }: Props) {
 
 function Disclosure() {
   return (
-    <div className="disclosure" role="note">
-      <span className="disclosure__icon" aria-hidden>
-        ✿
-      </span>
-      <span>
-        <strong>What you're looking at.</strong> The Plant Tracker app and its
-        14 Help Center articles are real. The tickets and search logs in this
-        dashboard are modeled — the product has no real support org. The
-        modeling choices are documented in{' '}
+    <aside className="disclosure" aria-label="About this dashboard">
+      <p className="disclosure__label">About this dashboard</p>
+      <p className="disclosure__body">
+        <strong>
+          The Plant Tracker app and its 14 Help Center articles are real.
+        </strong>{' '}
+        The tickets and search logs in this dashboard are{' '}
+        <em>modeled</em> — the product has no real support org. The modeling
+        choices are documented openly in{' '}
         <a href="https://github.com/the-vfp/plant-tracker-help-center-dashboard/blob/main/methodology.md">
           methodology.md
         </a>
-        .
-      </span>
-    </div>
+        . The synthetic-data caveat is treated as a feature: this writeup
+        talks about which assumptions were baked in, which is itself an
+        analytical demonstration.
+      </p>
+    </aside>
   );
 }

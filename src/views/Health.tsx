@@ -48,11 +48,53 @@ export function HealthView() {
         <Stat
           label="Modeled deflection"
           value={fmtPercent(t.deflection_rate)}
-          hint="of clickthrough searches did not file a ticket"
+          hint="of click-throughs did not file a ticket"
         />
       </div>
 
-      <div className="card">
+      <div className="card definitions-card">
+        <h3>How to read these numbers</h3>
+        <p className="card__lead">
+          Three terms recur across every view. The definitions matter because
+          the same data answers different questions depending on which subset
+          you're counting.
+        </p>
+        <dl className="definitions">
+          <dt>Click-through</dt>
+          <dd>
+            A search where the user clicked one of the article results.
+            Clicking is the first signal that a user found something they
+            thought might help — distinct from searches that returned results
+            and were abandoned, and from searches that returned nothing at all.
+          </dd>
+
+          <dt>Deflection rate</dt>
+          <dd>
+            Of click-throughs to a given article (or across the KB), the
+            fraction where the user did <em>not</em> file a ticket in the
+            following 72-hour window. Higher is better: they read the article
+            and didn't need support. Computed as{' '}
+            <code>1 − (click-throughs that led to a ticket ÷ total
+            click-throughs)</code>.
+          </dd>
+
+          <dt>Led to ticket</dt>
+          <dd>
+            A search the seed marks as the trigger for a follow-on ticket —
+            i.e., a ticket was filed within 72 hours of the search from the
+            same session. The inverse of a deflected click-through, and the
+            mechanism that lets the dashboard model deflection at all without
+            faking it.
+          </dd>
+        </dl>
+        <p className="definitions__note">
+          Zero-result searches are excluded from deflection — by definition
+          they have nothing to read, so there's no article to credit or
+          blame. Their signal lives in <em>Content gaps</em> instead.
+        </p>
+      </div>
+
+      <div className="card" style={{ marginTop: '1.2rem' }}>
         <h3>Ticket and search volume by month</h3>
         <p className="card__lead">
           Two peaks: winter panic (Dec–Feb) and spring active-care
